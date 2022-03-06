@@ -133,9 +133,15 @@ table td {
 }
 
 .btn-join-presale {
-  padding: 10px;
+  padding: 10px 50px;
   border-radius: 4px;
-  background: #872f32;
+  background: #00d66b;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.btn-join-presale:hover {
+  background: #00e447;
 }
 
 .select-translate {
