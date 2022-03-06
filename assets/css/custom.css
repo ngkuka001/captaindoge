@@ -155,6 +155,10 @@ table td {
   .select-translate {
     right: 150px !important;
   }
+  .custom-image {
+    max-width: 20%;
+    margin: auto;
+  }
 }
 
 .tt-ac-head-title,

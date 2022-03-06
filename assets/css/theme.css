@@ -1649,6 +1649,7 @@ body.olm-toggle-no-click .tt-ol-menu-toggle-btn {
 #page-header {
   position: relative;
   z-index: 1;
+  height: 100%;
 }
 .page-header-inner,
 body.ph-image-on.ph-bg-image-on
@@ -9195,6 +9196,7 @@ body:not(.tt-boxed) .tt-footer-inner,
 @media (max-width: 1024px) {
   #tt-footer {
     padding: 20px 0;
+    background: black;
   }
   .tt-footer-inner {
     display: flex;
