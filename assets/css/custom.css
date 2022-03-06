@@ -137,3 +137,16 @@ table td {
   border-radius: 4px;
   background: #872f32;
 }
+
+.select-translate {
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  z-index: 999;
+}
+
+@media (max-width: 576px) {
+  .select-translate {
+    right: 150px !important;
+  }
+}
