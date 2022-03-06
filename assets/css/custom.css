@@ -140,13 +140,25 @@ table td {
 
 .select-translate {
   position: absolute;
-  top: 50px;
+  top: 54px;
   right: 200px;
   z-index: 999;
+  color: #fff;
+  font-family: "retroica", serif !important;
+}
+
+.select-translate button.selected {
+  color: #2ab9ff;
 }
 
 @media (max-width: 576px) {
   .select-translate {
     right: 150px !important;
   }
+}
+
+.tt-ac-head-title,
+.tt-accordion-heading,
+.tt-accordion-content {
+  font-family: "retroica", serif !important;
 }
