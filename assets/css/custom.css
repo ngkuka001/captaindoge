@@ -146,14 +146,20 @@ table td {
 
 .select-translate {
   position: absolute;
-  top: 54px;
+  top: 50px;
   right: 200px;
   z-index: 999;
   color: #fff;
   font-family: "retroica", serif !important;
 }
+.select-translate a {
+  cursor: pointer;
+  padding: 0 4px;
+  color: #fff;
+  font-family: "retroica", serif !important;
+}
 
-.select-translate button.selected {
+.select-translate a.selected {
   color: #2ab9ff;
 }
 
